@@ -37,10 +37,10 @@
    roles:
     -  db_servers
 
--  hosts:  file_servers
+-  hosts:  file_server
    become: true
    roles:
-    -  file_servers
+    -  file_server
 
 
 
